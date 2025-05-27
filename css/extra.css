@@ -1,0 +1,77 @@
+/* Normal links */
+.md-typeset a {
+  color: #1a6023;  /* Replace with your desired link color */
+}
+
+/* Hovered links */
+.md-typeset a:hover {
+  color: #268a12;  /* Replace with your hover color */
+}
+
+
+
+/* NOTE */
+/* Change icon color for 'note' admonition */
+/* .md-typeset .admonition.note .admonition-title .material-icons {
+  color: #32cd32 !important;
+}
+
+.md-typeset .admonition.note,
+.md-typeset .note {
+  border-color: #55b5cf !important;
+  background-color: #f4fcff !important;
+} */
+
+/* INFO */
+/* Change icon color for 'info' admonition */
+/* .md-typeset .admonition.info .admonition-title .material-icons {
+  color: #1e90ff !important;
+}
+
+.md-typeset .admonition.info,
+.md-typeset .info {
+  border-color: #05a5d1 !important;
+  background-color: #f6fcfe !important;
+} */
+
+/* WARNING */
+/* Change icon color for 'warning' admonition */
+/* .md-typeset .admonition.warning .admonition-title .material-icons {
+  color: #fff200 !important;
+}
+
+.md-typeset .admonition.warning,
+.md-typeset .warning {
+  border-color: #fcda17 !important;
+  background-color: #fffef4 !important;
+} */
+
+/* ABSTRACT */
+/* Change icon color for 'abstract' admonition */
+/* .md-typeset .admonition.abstract .admonition-title .material-icons {
+  color: #4d4d4d !important;
+}
+
+.md-typeset .admonition.abstract,
+.md-typeset .abstract {
+  border-color: #666666 !important;
+  background-color: #ffffff !important;
+} */
+
+
+
+/* Normal links (future sections) */
+.md-nav--secondary .md-nav__link {
+  color: #444444; /* Set your base color for all section links */
+}
+
+/* Hovered links */
+.md-nav--secondary .md-nav__link:hover {
+  color: #1c8f2b; /* Same as current section if you like uniformity */
+}
+
+/* Active/current section */
+.md-nav--secondary .md-nav__link--active {
+  color: #166321; /* Highlighted color */
+}
+

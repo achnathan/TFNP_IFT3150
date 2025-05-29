@@ -724,7 +724,7 @@
 <h3 id="contexte">Contexte<a class="headerlink" href="#contexte" title="Permanent link">&para;</a></h3>
 <p>Dans les années 90s, les informaticiens théoriques ont introduit la théorie de TFNP (total function NP) dans le but d'étudier les problèmes de recherche qui sont garantis d'avoir des solutions et cette théorie a révelé des liens importants entre la cryptographie, l'algorithmique, l'économie et bien plus encore. Récemment, des relations excitantes ont été découvertes entre TFNP et la théorie de complexité de preuves propositionnelles - l'étude de la taille des preuves dans des systèmes de preuve propositionnelle - montrant que chaque classe de problèmes dans TFNP correspond directement à un système de preuve propositionnelle qui peut efficacement prouver que ces problèmes sont totaux. Sous ce dictionnaire, des questions ouvertes en complexité de preuves propositionnelles peuvent être directement traduites en questions de TFNP, où elles sont souvent plus simples à résoudre.</p>
 <h3 id="problematique-ou-motivations">Problématique ou motivations<a class="headerlink" href="#problematique-ou-motivations" title="Permanent link">&para;</a></h3>
-<p>Le but de ce projet est d'approfondir le lien entre la complexité des preuves propositionnelles et la combinatoire extrémale en utilisant la théorie de TFNP comme pont. Plus concrétement, on est intéressé à comprendre le lien entre le théorème de Ramsey, qui dit que tout graphe contient soit une clique ou un ensemble indépendant de petite taille comme sous-graphe, et le principe du pigeonnier qui dit que toute assignation de n pigeons à n-1 nids de pigeons implique qu'il y a un nid ayant deux pigeons. Notre objectif pincipal est de comprendre si on peut utiliser le principe du pigeonnier pour donner des preuves efficaces du théorème de Ramsey - un problème ouvert bien connu - en utilisant le dictionnaire décrit ci-dessus pour traduire ce problème ouvert en problème algorithmique dans TFNP.</p>
+<p>Le but de ce projet est d'approfondir le lien entre la complexité des preuves propositionnelles et la combinatoire extrémale en utilisant la théorie de TFNP comme pont. Plus concrétement, on est intéressé à comprendre le lien entre le théorème de Ramsey, qui dit que tout graphe contient soit une clique ou un ensemble indépendant de petite taille comme sous-graphe, et le principe du pigeonnier qui dit que toute assignation de <span class="arithmatex">\(n\)</span> pigeons à <span class="arithmatex">\(n-1\)</span> nids de pigeons implique qu'il y a un nid ayant deux pigeons. Notre objectif pincipal est de comprendre si on peut utiliser le principe du pigeonnier pour donner des preuves efficaces du théorème de Ramsey - un problème ouvert bien connu - en utilisant le dictionnaire décrit ci-dessus pour traduire ce problème ouvert en problème algorithmique dans TFNP.</p>
 <h3 id="proposition-et-objectifs">Proposition et objectifs<a class="headerlink" href="#proposition-et-objectifs" title="Permanent link">&para;</a></h3>
 <p>On cherche à prouver (ou déprouver) la prouvabilité efficace de 4-PHP et de RAMSEY dans le système de preuve RésolutionArbre avec oracle au Principe du Pigeonnier et de RAMSEY dans Somme de Carrés, et la réductibilité (simulation polynomiale) du système RésolutionArbre avec oracle au Principe du Pigeonnier au système Somme de Carrés.</p>
 <h2 id="echeancier">Échéancier<a class="headerlink" href="#echeancier" title="Permanent link">&para;</a></h2>
@@ -832,6 +832,10 @@
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
